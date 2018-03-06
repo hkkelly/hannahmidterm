@@ -20,13 +20,45 @@ h1 {
   background-color: #F5F5F5;
   padding: 50px;
   border-style: solid;
+  border-color: #333333; /*borders less stark, grey instead of black*/
   font-family: sans-serif; /* makes text sans-serif style */
 }
 .story-text{
   font-weight: lighter;/* makes story font thinner */
 }
+.first-quote{
+  padding-left: 20px;/*10 quote indented right*/
+  padding-right: 40px;/*11 quote indented left so centered*/
+  font-size: 15px;/*12 quote slightly larger*/
+}
 .quote{
-  font-style: italic;
+  font-style: italic;/* quote in italics */
+  padding-left: 20px;/*10 quote indented right*/
+  padding-right: 40px;/*11 quote indented left so centered*/
+  font-size: 15px;/*12 quote slightly larger*/
+}
+li{
+  font-weight: 130;/*items in list have thinner font*/
+  font-family: monospace;/*items in list have typewriter font*/
+  font-size: 14px;/*increase size of font of items in list*/
+}
+h2{
+  color: purple;/*h2 text is purple*/
+}
+h4{
+  color: purple;/*h4 text is purple*/
+  font-style: oblique;/*h4 text is slanted*/
+}
+.byline{
+  font-style: italic;/*byline changed to italics*/
+  font-size: 16px;/*byline text slightly larger*/
+  font-weight: 300; /*byline font slightly bolder*/
+  color: #333333;/* byline changed to lighter gray*/
+  text-decoration: overline;/*line over byline text*/
+}
+.publish-time{
+  font-weight: 525; /*byline font slightly bolder*/
+  color: #222222;/*byline changed to medium gray*/
 }
 @media(min-width: 650px){
 #column-left{

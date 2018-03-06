@@ -7,12 +7,26 @@ overflow: auto;
 body{
   background-color: grey;
 }
+h1 {
+  color: #333333; /*3 h1 changed to gray*/
+  font-size: 32px; /*4 change h1 font size to 32*/
+  padding: 0 20px 15px 20px; /*6 add space around heading, more on sides*/
+  text-transform: uppercase; /*7 h1 in all caps*/
+  text-align: center;/*8 h1 centered*/
+  }
 .container{
   max-width: 600px;
   margin: 0 auto;
   background-color: #F5F5F5;
   padding: 50px;
   border-style: solid;
+  font-family: sans-serif; /* makes text sans-serif style */
+}
+.story-text{
+  font-weight: lighter;/* makes story font thinner */
+}
+.quote{
+  font-style: italic;
 }
 @media(min-width: 650px){
 #column-left{

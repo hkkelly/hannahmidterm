@@ -1,6 +1,9 @@
 * {
 overflow: auto;
  }
+* {
+     box-sizing: border-box;
+ }
 body{
   background-color: grey;
 }
@@ -8,14 +11,17 @@ body{
   max-width: 600px;
   margin: 0 auto;
   background-color: #F5F5F5;
-  padding: 40px;
+  padding: 50px;
   border-style: solid;
 }
+@media(min-width: 650px){
 #column-left{
   width: 50%;
   float: left;
+  padding-right: 2px;
 }
 #column-right{
   width: 50%;
   float: left;
+}
 }
